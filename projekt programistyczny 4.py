@@ -54,6 +54,7 @@ plt.show()
 
 #zadanie 2
 beta = 0.5
+
 for i in range(N-1):
     y[i+1] = RK(y[i], t[i], dt, SEIR)
 
